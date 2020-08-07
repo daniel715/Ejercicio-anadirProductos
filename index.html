@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Añadir productos </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div id="agregar" class="col-6 pt-5">
+                <div class="card">
+                    <div class="card-header">
+                        <h2> Agregar un producto</h2>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <input id="name" type="text" placeholder="Nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="price" type="number" step="0.01" placeholder="Precio" required>
+                            </div>
+                            <div class="form-group">
+                                <input id="quantity" type="number" placeholder="Cantidad" required>
+                            </div>
+                            <button id="submit" type="submit" class="btn btn-primary">Agregar</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id='mostrar' class="col-6 pt-5">
+                <div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Lista de Productos</h2>
+                        </div>
+                        <div class="card-body">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
